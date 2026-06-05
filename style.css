@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background: url('sound.png') no-repeat;
+    background-color: rgb(209, 241, 247);
+    background-size: 50%;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    min-height: 80vh;
+    justify-content: center;
+    align-content: center;
+}
+
+h2{
+    font-size: 30px;
+    top: 0%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    left: 45%;
+    position:fixed;
+    
+}
+
+.output-box {
+    font-size: 16px;
+    text-align: start;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: rgb(54, 50, 50);
+    left:25%;
+    width:45%;
+    top: 60%;
+    max-width: 45%;
+    min-height: 50px;
+    max-height: 230px;
+    box-sizing: border-box;
+    position:absolute;
+    display: block;
+    overflow: auto;
+}
+
+input {
+    padding: 15px;
+    border-radius: 100px;
+    background-color:  white;
+    border: 1px solid #ccc;
+    margin-bottom: 0px;
+    outline: none;
+    color: rgb(41, 38, 38);
+    font-size: 16px;
+    width:45%;
+    max-height: 100px;
+    position: fixed;
+    top: 85%;
+    left:25%;
+}
+
+::placeholder {
+    color: rgb(54, 50, 50)
+}
+.btn{
+    background: rgb(80, 170, 223);
+    border-color: transparent;
+    color: transparent;
+    border-radius: 25px;
+    width: 3%;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 85%;
+    left: 72%;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.281);
+    top: 85%;
+}
+
+/* * BOTÓ GRABAR: Estil pel botó de gravació d'audio */
+.btn-grabar{
+    background: rgb(80, 170, 223);
+    border-color: transparent;
+    border-radius: 25px;
+    width: 12%;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 85%;
+    left: 77%;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-grabar:hover{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+
